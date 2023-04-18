@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Заголовок документу</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <video poster="https://www.w3schools.com/tags/img_pink_flowers.jpg" width="450" height="450" controls autoplay loop src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4">
+      <track default label="субтири" kind="captions" srclang="en" src="https://interactive-examples.mdn.mozilla.net/media/examples/friday.vtt">
+    </video>
+
+<!-- из урока -->
+<video controls>
+<source src="foo.webm" type="video/webm">
+<source src="foo.ogg" type="video/ogg">
+<source src="foo.mov" type="video/quicktime">
+I'm sorry; your browser doesn't support HTML5 video.
+</video>
+
+  </body>
+</html>
+
+<!-- https://interactive-examples.mdn.mozilla.net/pages/tabbed/track.html -->
+<!-- из урока Напишіть структуру для додавання відео, має інтерфейс-плеер, текстові доріжки відтворюються англійською мовою, є URL-адреса треку файлу, також має посилання для завантаження відео та субтитрів
+-->
+
+<video controls src="/media/cc0-videos/friday.mp4">
+<track default kind="captions" srclang="en"src="/media/examples/friday.vtt">
+Download the
+<a href="/media/cc0-videos/friday.mp4">
+  MP4</a> 
+video, and
+<a href ="/media/examples/friday.vtt">
+  subtitles</a>
+</video>
